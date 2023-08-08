@@ -1,0 +1,29 @@
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+      .button { display: inline-block;
+          width: 200px;
+          text-align: center;
+          color: #fff;
+          list-style-type: none;
+          text-decoration: none;
+          line-height: 50px;    
+          background: black;
+          outline: none;
+          background-color: #000;
+          border:2px solid #000;
+          -webkit-transition: all .3s;
+          transition: all .3s;
+      
+  }
+  
+  .button:hover {color: #000000;
+      border:2px solid #000000;
+      background-color: #fff;
+  
+  }
